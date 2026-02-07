@@ -1,0 +1,14 @@
+:root{
+    /* Bootstrap 5 vars */
+    --bs-primary: #62a0ea;
+    --bs-primary-rgb: rgb(98, 160, 234);
+
+    --bs-link-color: var(--bs-primary);
+    --bs-link-hover-color: #3585e4;
+  }
+  
+  /* توحيد الأزرار لو في Overrides قديمة على .btn-primary */
+  .btn-primary{ background-color:#62a0ea; border-color:#62a0ea; }
+  .btn-outline-primary{ color:#62a0ea; border-color:#62a0ea; }
+  .btn-outline-primary:hover{ background-color:#62a0ea; border-color:#62a0ea; color:#fff; }
+  .btn-primary:hover{ background-color:#3585e4; border-color:#3585e4; color:#fff; }
